@@ -2,29 +2,47 @@
 <html>
  <head>
      <title>Our Benefits</title>
+     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
  </head>
 <body>
-    <h1>Our Solution Approach</h1>
-        
-    <p> 
-        <strong>No need to pick between your favorite Tech wearable and
-            comfortably working on your fitness goals!
-        </strong>
-            
-    </p>
-    
-    <p>
-        Our research shows that a <em>data-tracked</em> workout includes the 
-        following benefits:
+    <h1 class="text-center font-bold text-2xl m-8 text-red-500 uppercase">Our Solution Approach</h1>
 
-        <ul>
-            <li>Increased Motivation</li>
-            <li>Tougher Challenges</li>
-            <li>Improved Results</li>
-            <li><strong>Accomplished</strong> Goals</li>
-        </ul> 
-   </p>
-               
-    <p>Ready to crash your goals? Head over to our <a href="index.html">Home Page</a></p>
+    <div class="px-16 md:flex bg-red-50">
+      <div class="md:p-16 md:w-1/2">
+        <img class="rounded-xl" src="https://st2.depositphotos.com/1071909/7201/i/600/depositphotos_72018913-stock-photo-benefit-plus-positive.jpg">
+      </div>
+  
+      <div class="md:p-16 md:w-auto space-y-4">
+        <h2 class="text-center font-bold text-xl">No need to pick between your favorite Tech wearable and
+            comfortably working on your fitness goals!</h2>
+
+        <div class="md:p-16 md:w-auto space-y-4">
+             <h2 class="text-center font-light text-lg"> Our research shows that a <em>data-tracked</em> workout includes the 
+                following benefits:</h2> 
+    
+        <div class="md:p-16 md:w-auto space-y-auto">
+            <h2 class="text-center font-thin text-lg text-blue-500"><ul>
+                <li>Increased Motivation</li>
+                <li>Tougher Challenges</li>
+                <li>Improved Results</li>
+                <li>Accomplished Goals</li>
+
+                <div class="md:p-16 md:w-auto space-y-auto">
+                    <h2 class="text-center font-bold italic underline text-lg text-red-500">Ready to crash your goals? Head over to our <a href="index.html">Home Page</a></h2>
+
+        <div class="m-8">
+            <h1 class="text-center font-bold text-gray-600 text-2xl uppercase"> Or Sign up below to connect with us! </h1>
+            
+            <form action="index.html" class="mt-8 w-64 mx-auto"> 
+                <label for="name" class="font-bold text-gray-600 block">What is your name?</label>
+                <input type="text" id="name" name="name" class="border border-gray-400 rounded my-2 p-2">
+        
+                <label for="motivation" class="font-bold text-gray-600 block">What is your motivation?</label>
+                <input type="text" id="motivation" name="motivation" class="border border-gray-400 rounded my-2 p-2">
+        
+                <button class="block mt-4 bg-red-500 text-white px-4 py-2 rounded mx-auto">Sign me up!</button>
+            </form>
+            </div>
+
 </body>
 </html>
